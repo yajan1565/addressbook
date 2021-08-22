@@ -20,8 +20,10 @@ spec:
       containers:
       - image: rajendrait99/addressbook:1.0
         name: addressbook
+        ports:
+        - containerPort: 8080
+        resources: {}
         env:
           - name: ALLOW_EMPTY_PASSWORD
             value: "yes"
-        resources: {}
 status: {}
