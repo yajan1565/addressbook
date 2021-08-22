@@ -22,6 +22,6 @@ spec:
         name: addressbook
         env:
           - name: ALLOW_EMPTY_PASSWORD
-            value: yes
+            value: "yes"
         resources: {}
 status: {}
