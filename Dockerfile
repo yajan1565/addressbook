@@ -1,2 +1,2 @@
 FROM bitnami/tomcat
-COPY addressbook_main/target/addressbook.war /opt/bitnami/tomcat/webapps_default/addressbook.war
+COPY my_ci_cd/target/addressbook.war /opt/bitnami/tomcat/webapps_default/addressbook.war
